@@ -27,7 +27,7 @@ gcloud services enable cloudbuild.googleapis.com run.googleapis.com
 
 ```bash
 export GOOGLE_CLOUD_PROJECT="Seu Project ID"
-cd ./monolith
+cd ~/destrinchando-o-gcp/labs/deploy-app-with-cloud-run/
 ```
 
 3. Preparar o código
@@ -64,7 +64,6 @@ gcloud run deploy monolith --image=gcr.io/${GOOGLE_CLOUD_PROJECT}/monolith:1.0.0
 1. Criar o Source Repository
 
 ```bash
-cd ~
 gcloud source repos create --project ${GOOGLE_CLOUD_PROJECT} monolith
 ```
 
