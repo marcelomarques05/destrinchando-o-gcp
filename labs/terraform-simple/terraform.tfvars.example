@@ -1,0 +1,8 @@
+org_id = "<YOUR_ORG_ID>" # Example: 1234567890
+billing_account = "<YOUR_BILLING_ACCOUNT>" # Example: 1234-5678-9012-3456
+default_region = "<YOUR_DEFAULT_REGION" # Example: us-central1
+default_zone = "<YOUR_DEFAULT_ZONE>" # Example: us-central1-a
+
+name = "<YOUR_PROJECT_NAME>" # Example: my-project
+project_id = "<YOUR_PROJECT_ID>" # Example: my-project-id
+vpc_name = "<YOUR_VPC_NAME>" # Example: my-vpc
