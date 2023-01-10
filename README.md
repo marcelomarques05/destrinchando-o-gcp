@@ -10,4 +10,4 @@ Códigos utilizados no treinamento <a href="https://www.udemy.com/course/destrin
 
 ## Contatos
 
-Caso encontre algum problema, ou mesmo tenha uma sugestão, fique a vontade para entrar em contato comigo. As informações podem ser encontradas no meu <a href="https://github.com/marcelomarques05">profile</a> aqui no GitHub
+Caso encontre algum problema, ou mesmo tenha uma sugestão, fique a vontade para entrar em contato comigo. As informações podem ser encontradas no meu <a href="https://github.com/marcelomarques05">perfil</a> aqui no GitHub
