@@ -1,0 +1,29 @@
+kind: DeliveryPipeline
+metadata:
+  name: my-demo-app-1
+description: main application pipeline
+serialPipeline:
+  stages:
+  - targetId: qsdev
+    profiles: []
+  - targetId: qsprod
+    profiles: []
+---
+
+apiVersion: deploy.cloud.google.com/v1
+kind: Target
+metadata:
+  name: qsdev
+description: development cluster
+gke:
+  cluster: projects/<SEU_PROJETO>/locations/<ZONA_DO_CLUSTER>/clusters/<NOME_DO_CLUSTER>
+---
+
+apiVersion: deploy.cloud.google.com/v1
+kind: Target
+metadata:
+  name: qsprod
+description: production cluster
+gke:
+  cluster: projects/<SEU_PROJETO>/locations/<ZONA_DO_CLUSTER>/clusters/<NOME_DO_CLUSTER>
+---

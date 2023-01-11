@@ -1,0 +1,8 @@
+apiVersion: skaffold/v2beta16
+kind: Pod
+metadata:
+  name: getting-started
+spec:
+  containers:
+  - name: echoserver
+    image: my-app-image
