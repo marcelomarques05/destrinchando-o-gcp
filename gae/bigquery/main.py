@@ -28,7 +28,7 @@ bigquery_client = bigquery.Client()
 def main():
     query_job = bigquery_client.query(
         """
-        SELECT
+        SELECT *
         FROM `<TROQUE_PELO_SEU_PROJETO>.dataset_test.table_test`
     """
     )
