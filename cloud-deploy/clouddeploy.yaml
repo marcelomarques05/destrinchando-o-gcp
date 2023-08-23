@@ -1,3 +1,4 @@
+apiVersion: deploy.cloud.google.com/v1
 kind: DeliveryPipeline
 metadata:
   name: my-demo-app-1
