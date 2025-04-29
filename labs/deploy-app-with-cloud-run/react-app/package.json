@@ -5,7 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.3.3",
     "env-cmd": "^10.1.0",
-    "express": "^4.19.2",
+    "express": "^4.21.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
