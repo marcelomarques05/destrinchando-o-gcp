@@ -1,4 +1,4 @@
-Django==4.2.26
+Django==4.2.27
 django-storages[google]==1.12.3
 django-environ==0.8.1
 psycopg2-binary==2.9.2
